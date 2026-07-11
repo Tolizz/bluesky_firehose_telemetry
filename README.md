@@ -54,6 +54,7 @@ The script connects to the `wss://jetstream1.us-east.bsky.network` endpoint, cou
 The final application was written in C, utilizing POSIX Threads (pthreads) to implement a Producer-Consumer architecture. It guarantees zero data loss, network resilience against connection drops (via Exponential Backoff), and highly accurate logging (Jitter < 1ms).
 
 ### 1. Compilation
+This requires `main.c` and `Makefile`.
 
 Navigate to the project directory and run the following command. The `Makefile` will handle the build process:
 
