@@ -1,0 +1,14 @@
+[Thu Jul  9 23:59:51 2026] SYSTEM: Αρχικοποίηση συστήματος επιτυχής.
+[Thu Jul  9 23:59:51 2026] SYSTEM: Νήμα Producer ξεκίνησε.
+[Thu Jul  9 23:59:51 2026] SYSTEM: Νήμα Consumer ξεκίνησε.
+[Thu Jul  9 23:59:51 2026] SYSTEM: Νήμα Monitor ξεκίνησε.
+[Thu Jul  9 23:59:52 2026] NETWORK EVENT: Συνδέθηκε επιτυχώς στο Firehose.
+[Fri Jul 10 01:33:14 2026] NETWORK EVENT: Η σύνδεση έκλεισε (Server Drop).
+[Fri Jul 10 01:33:14 2026] NETWORK EVENT: Προσπάθεια επανασύνδεσης σε 1 δευτερόλεπτα...
+[Fri Jul 10 01:33:16 2026] NETWORK EVENT: Συνδέθηκε επιτυχώς στο Firehose.
+[Sat Jul 11 01:30:29 2026] SYSTEM: Λήφθηκε σήμα τερματισμού (Ctrl+C). Ομαλό κλείσιμο.
+[Sat Jul 11 01:30:29 2026] SYSTEM: Νήμα Consumer τερμάτισε.
+[Sat Jul 11 01:30:29 2026] NETWORK EVENT: Η σύνδεση έκλεισε (Server Drop).
+[Sat Jul 11 01:30:30 2026] SYSTEM: Νήμα Producer τερμάτισε.
+[Sat Jul 11 01:30:30 2026] SYSTEM: Νήμα Monitor τερμάτισε.
+[Sat Jul 11 01:30:30 2026] SYSTEM: Επιτυχής τερματισμός εφαρμογής.

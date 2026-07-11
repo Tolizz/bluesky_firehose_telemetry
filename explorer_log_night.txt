@@ -1,0 +1,92 @@
+=== ΣΤΑΤΙΣΤΙΚΑ ΡΟΗΣ ===
+Πραγματικός Χρόνος Καταγραφής: 29110.84 δευτερόλεπτα (8.09 ώρες)
+Συνολικά μηνύματα: 1096827
+ΜΕΣΟΣ Ρυθμός (Average Hz): 37.68 μηνύματα/sec
+ΜΕΓΙΣΤΗ Ριπή (Peak Burst): 352 μηνύματα σε 1 sec
+Μέσο μέγεθος μηνύματος: 825.34 Bytes
+
+=== ΚΑΤΑΝΟΜΗ & ΜΕΓΙΣΤΑ ΜΕΓΕΘΗ ΑΝΑ 'KIND' ===
+- COMMIT: 1080067 μηνύματα (Max Size: 545364 Bytes)
+- IDENTITY: 6103 μηνύματα (Max Size: 201 Bytes)
+- ACCOUNT: 10657 μηνύματα (Max Size: 237 Bytes)
+- INFO: 0 μηνύματα (Max Size: 0 Bytes)
+- UNKNOWN: 0 μηνύματα (Max Size: 0 Bytes)
+
+=== ΔΕΙΓΜΑΤΑ ΔΟΜΗΣ (1 ΑΠΟ ΚΑΘΕ ΤΥΠΟ) ===
+
+[COMMIT]
+{
+  "did": "did:plc:o5vq7x7t5rkljbrjdamu3h3u",
+  "time_us": 1782951344307274,
+  "kind": "commit",
+  "commit": {
+    "rev": "3mpmqurr4ge2i",
+    "operation": "create",
+    "collection": "app.bsky.feed.post",
+    "rkey": "3mpmquponak2q",
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "createdAt": "2026-07-02T00:15:41.347Z",
+      "embed": {
+        "$type": "app.bsky.embed.external",
+        "external": {
+          "description": "Recent drone attacks in the Moscow area reveal a multifaceted strategy.",
+          "thumb": {
+            "$type": "blob",
+            "ref": {
+              "$link": "bafkreigz5em7t3r6roybddbbcnbk2ho2ghlakd5gaut5nvprwz66tcdcam"
+            },
+            "mimeType": "image/jpeg",
+            "size": 697533
+          },
+          "title": "Ukraine\u2019s Plan to Unnerve Putin",
+          "uri": "https://www.theatlantic.com/ideas/2026/06/moscow-ukraine-drone-attacks/687745/?gift=9x7jcG3rVPfxnP2T0daVOy3TpAHonf7_FpylSoe1yr0"
+        }
+      },
+      "facets": [
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#link",
+              "uri": "https://www.theatlantic.com/ideas/2026/06/moscow-ukraine-drone-attacks/687745/?gift=9x7jcG3rVPfxnP2T0daVOy3TpAHonf7_FpylSoe1yr0"
+            }
+          ],
+          "index": {
+            "byteEnd": 35,
+            "byteStart": 0
+          }
+        }
+      ],
+      "langs": [
+        "en"
+      ],
+      "text": "www.theatlantic.com/ideas/2026/0..."
+    },
+    "cid": "bafyreiavxyqqz3p2bo4ji2kubkpstxszp25afcewuolot4ib6nyaxpuxfm"
+  }
+}
+
+[IDENTITY]
+{
+  "did": "did:plc:ocwnjoxjlurta44wsfrpjri2",
+  "time_us": 1782951344780762,
+  "kind": "identity",
+  "identity": {
+    "did": "did:plc:ocwnjoxjlurta44wsfrpjri2",
+    "seq": 31453619399,
+    "time": "2026-07-02T00:15:44.595Z"
+  }
+}
+
+[ACCOUNT]
+{
+  "did": "did:plc:ocwnjoxjlurta44wsfrpjri2",
+  "time_us": 1782951344783579,
+  "kind": "account",
+  "account": {
+    "active": true,
+    "did": "did:plc:ocwnjoxjlurta44wsfrpjri2",
+    "seq": 31453619400,
+    "time": "2026-07-02T00:15:44.595Z"
+  }
+}
