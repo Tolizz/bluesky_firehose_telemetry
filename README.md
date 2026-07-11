@@ -25,7 +25,6 @@ sudo apt install python3 python3-pip -y
 
 *(The `cJSON` library is typically included directly in the project files. If not, it requires installing the `libcjson-dev` package).*
 
----
 
 ##  Part 1: Network Profiling with Python (`firehose.py`)
 
@@ -47,7 +46,6 @@ python3 firehose.py
 
 The script connects to the `wss://jetstream1.us-east.bsky.network` endpoint, counts incoming packets, and prints basic rate statistics to the console. Press `Ctrl+C` to stop it.
 
----
 
 ##  Part 2: Main System in C (Real-Time Embedded Application)
 
@@ -81,7 +79,6 @@ During execution, the program generates two files:
 * `metrics_log.txt`: A CSV-formatted log containing telemetry statistics (Timestamps, Commits, CPU usage, Buffer occupancy) recorded strictly once per second (1 Hz).
 * `debug_log.txt`: An event log that records initialization, termination, and any network disconnections/reconnections (Network Drops & Backoff events).
 
----
 
 ##  Part 3: Data Analysis (MATLAB)
 
@@ -94,6 +91,5 @@ To generate the report's plots and calculate the final statistics (Jitter, Burst
 3. Open MATLAB, set that directory as your *Current Folder*, and run the script.
 4. The script will automatically filter the data for the exact 24-hour period, generate 3 charts (Jitter, Load vs Buffer, CPU Load), and print detailed statistics in the Command Window.
 
----
 
 **Note:** This project was developed as a university assignment and tested on physical hardware (Raspberry Pi Zero 2 W), successfully meeting the strict timing requirements of User Space Linux real-time systems.
