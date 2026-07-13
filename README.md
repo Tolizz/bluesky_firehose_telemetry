@@ -27,6 +27,7 @@ sudo apt install python3 python3-pip -y
 
 
 ##  Part 1: Network Profiling with Python (`firehose.py`)
+This part is not necessary and can be skipped, but it is added for completion purposes.
 
 Before developing the final C application, a Python script (`firehose.py`) was created for initial network profiling, understanding the JSON message structure, and calculating the average data rate.
 
