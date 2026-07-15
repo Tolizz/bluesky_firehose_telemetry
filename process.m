@@ -137,6 +137,7 @@ fprintf('Συνολικά μηνύματα: %d\n', sum(total_rate_hz(~isnan(tota
 fprintf('- Commits: %d\n', sum(commits(~isnan(commits))));
 fprintf('- Identities: %d\n', sum(identities(~isnan(identities))));
 fprintf('- Accounts: %d\n', sum(accounts(~isnan(accounts))));
+fprintf('- Info: %d\n', sum(infos(~isnan(infos))));
 
 % 2. Ρυθμός & Ριπές (Bursts)
 [max_burst, burst_idx] = max(total_rate_hz);
